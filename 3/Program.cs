@@ -2,12 +2,24 @@
 
 class Program {
     static void Main(string[] args) {
-        int i, a;
-        int sum;
-        -32000 <= i <= 32000 && -32000 <= a <= 32000;
-        sum = i + a;
-        Console.WriteLine("Напишите значение i: ");
-        Console.WriteLine("Напишите значение a: ");
-        Console.WriteLine("Сумма равна: " + sum + "рублей.");
+        Dictionary<Key, string> dictionary = new Dictionary<Key, string>();
+        Key firstKey = new Key(1);
+        dictionary.Add(firstKey, "First");
+        Key secondKey = new Key(2);
+        dictionary.Add(secondKey, "Second");
+
+        Console.WriteLine(dictionary[firstKey]);
+    }
+        public class Key
+        {
+            public int Marker { get; }
+            
+            public Key(int marker) => Marker = marker;
+            
+            public override int GetHashCode() => Marker / 10;
+            
+            public override bool Equals(object? other) =>
+                other is Key ? other.GetHashCode() == GetHashCode() : base.Equals(other);
+        }
     } 
 }

@@ -3,3 +3,13 @@ D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3
 D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.AssemblyInfo.cs
 D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.csproj.CoreCompileInputs.cache
 D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.sourcelink.json
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\bin\Debug\net8.0\3.exe
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\bin\Debug\net8.0\3.deps.json
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\bin\Debug\net8.0\3.runtimeconfig.json
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\bin\Debug\net8.0\3.dll
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\bin\Debug\net8.0\3.pdb
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.dll
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\refint\3.dll
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.pdb
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\3.genruntimeconfig.cache
+D:\Учеба\C# practice in git\Tinkoff_bank_solving_tasks\3\obj\Debug\net8.0\ref\3.dll
