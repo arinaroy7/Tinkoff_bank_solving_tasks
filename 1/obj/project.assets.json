@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\1\\1.csproj",
+      "projectUniqueName": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\1\\1.csproj",
       "projectName": "1",
-      "projectPath": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\1\\1.csproj",
+      "projectPath": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\1\\1.csproj",
       "packagesPath": "C:\\Users\\arina\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\1\\obj\\",
+      "outputPath": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arina\\AppData\\Roaming\\NuGet\\NuGet.Config"

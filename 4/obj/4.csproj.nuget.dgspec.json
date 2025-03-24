@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj": {}
+    "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj": {
+    "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj",
+        "projectUniqueName": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj",
         "projectName": "4",
-        "projectPath": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj",
+        "projectPath": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\4\\4.csproj",
         "packagesPath": "C:\\Users\\arina\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\C# practice in git\\Tinkoff_bank_solving_tasks\\4\\obj\\",
+        "outputPath": "D:\\Учеба\\practice in git\\Tinkoff_bank_solving_tasks\\4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arina\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,15 @@
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\bin\Debug\net8.0\11.exe
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\bin\Debug\net8.0\11.deps.json
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\bin\Debug\net8.0\11.runtimeconfig.json
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\bin\Debug\net8.0\11.dll
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\bin\Debug\net8.0\11.pdb
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.AssemblyInfoInputs.cache
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.AssemblyInfo.cs
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.csproj.CoreCompileInputs.cache
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.sourcelink.json
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.dll
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\refint\11.dll
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.pdb
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\11.genruntimeconfig.cache
+D:\Учеба\practice in git\Tinkoff_bank_solving_tasks\11\obj\Debug\net8.0\ref\11.dll

@@ -1,38 +1,45 @@
 ﻿using System;
-using System.Linq;
+using System.Collections.Generic;
 
 class Program {
-    static void Main(string[] args) {
-        Console.WriteLine("Напишите количество дней, за которые Борис будет покупать цветы: ");
+    static void Main() {
         int n = int.Parse(Console.ReadLine());
+        List<long> powersOfTwo = new List<long>();
 
-        int[] money = new int[n];
-        for (int i = 0; i < n; i++) {
-            Console.WriteLine($"Введите количество денег для {i + 1}-го дня: ");
-            money[i] = int.Parse(Console.ReadLine());
+        for (int i = 0; i <= 60; i++) {
+            powersOfTwo.Add(1L << i); // 2^i
         }
 
-        int[] flowerPrices = Enumerable.Range(1, 100).ToArray();
+        List<long> validSums = new List<long>();
 
-        foreach (int moneyAmount in money) {
-            int result = CountFlowers(moneyAmount, flowerPrices);
-            Console.WriteLine(result);
-        }
-    }
-
-    static int CountFlowers(int money, int[] flowerPrices) {
-        int maxSum = -1;
-
-        for (int i = 0; i < flowerPrices.Length - 2; i++) {
-            for (int j = i + 1; j < flowerPrices.Length - 1; j++) {
-                for (int k = j + 1; k < flowerPrices.Length; k++) {
-                    int totalCost = flowerPrices[i] + flowerPrices[j] + flowerPrices[k];
-                    if (totalCost < money && totalCost > maxSum) {
-                        maxSum = totalCost;
-                    }
+        for (int i = 0; i < powersOfTwo.Count; i++) {
+            for (int j = i + 1; j < powersOfTwo.Count; j++) {
+                for (int k = j + 1; k < powersOfTwo.Count; k++) {
+                    long sum = powersOfTwo[i] + powersOfTwo[j] + powersOfTwo[k];
+                    validSums.Add(sum);
                 }
             }
         }
-        return maxSum;
+        validSums.Sort();
+
+        while (n-- > 0) {
+            long money = long.Parse(Console.ReadLine());
+            int index = BinarySearch(validSums, money);
+            Console.WriteLine(index >= 0 ? validSums[index] : -1);
+        }
+    }
+
+    static int BinarySearch(List<long> arr, long target) {
+        int left = 0, right = arr.Count - 1, bestIndex = -1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (arr[mid] <= target) {
+                bestIndex = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return bestIndex;
     }
 }
