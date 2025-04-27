@@ -18,3 +18,4 @@ CREATE TABLE Пользователи (
     Почта VARCHAR(150),
     Гендер VARCHAR(50) NOT NULL
 );
+
